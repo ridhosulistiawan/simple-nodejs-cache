@@ -1,0 +1,20 @@
+{
+  "name": "cache-nodejs",
+  "version": "1.0.0",
+  "description": "nodejs-redis-mysql",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "redis",
+    "mysql",
+    "cache"
+  ],
+  "author": "ridho",
+  "license": "ISC",
+  "dependencies": {
+    "mysql": "^2.18.1",
+    "redis": "^4.5.1"
+  }
+}
