@@ -5,10 +5,10 @@ class mysql_database {
         const mysql = require('mysql');
 
         const mysql_con = mysql.createConnection({
-            host: "localhost",
-            user: "node_users",
-            password: "Nodejs_password14",
-            database: "nodejs_redis"
+            host: "mysql",
+            user: "nodeuser",
+            password: "nodepassword",
+            database: "nodejs_app"
          });
 
         mysql_con.connect(function(err) {
