@@ -4,7 +4,7 @@ class redis_server {
 
         const redis = require('redis');
 
-        const redisClient = redis.createClient('redis', 6379);
+        const redisClient = redis.createClient('redis.techtest-ridho.svc.cluster.local', 6379);
 
         redisClient.connect();
 

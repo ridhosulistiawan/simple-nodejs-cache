@@ -5,7 +5,7 @@ class mysql_database {
         const mysql = require('mysql');
 
         const mysql_con = mysql.createConnection({
-            host: "mysql",
+            host: "mysql.techtest-ridho.svc.cluster.local",
             user: "nodeuser",
             password: "nodepassword",
             database: "nodejs_app"
